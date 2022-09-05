@@ -1,0 +1,341 @@
+body {
+    font-family: "Montserrat";
+    background-color: crimson;
+    
+}
+/* Navbar */
+.navbar {
+    padding-left: 4.5rem;
+    padding-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+.navbar-brand {
+    font-family: "Monsterrat-Black";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+}
+/* Intro Section */
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    font-weight: bold;
+    width: 50%;
+    color: white;
+    letter-spacing: 2px;
+}
+.brief {
+    color: lightgrey;
+    width: 57%;
+    letter-spacing: 2px;
+    
+}
+.intro-section {
+    background-color: crimson;
+}
+
+.parentDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#left-content {
+    display: inline-block;
+    margin: 8%;
+ 
+}
+#right-content {
+    display: inline-block;
+   
+   
+}
+.img1 {
+  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 40px;
+    
+}
+/* Menu Section */
+#menu {
+    background-color: crimson;
+   
+}
+.menu1 {
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+
+}
+.menuc {
+    
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.fa-solid {
+    color: black;
+    padding-left: 22px;
+}
+.detailc {
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.row {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Categories Section */
+#categories {
+    background-color: crimson;
+    
+}
+.categories1 {
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+
+}
+.image-pdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+}
+.pasta ,.salad {
+    height: 300px;
+    width: 600px;
+    border: 10px solid grey;
+    border-radius: 10px;
+}
+/* Product */
+#product {
+    background-color: crimson;
+}
+.product1 {
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.card {
+    align-items: center;
+    margin: 50px;
+}
+.rimg {
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+}
+.card-title {
+    font-family: "Montserrat-Black";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.card-text {
+    font-family: "Montserrat-Black";
+    font-weight: 300;
+    font-size: 1rem;
+    align-items: center;
+}
+.checked {
+    color: orange;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/*About Us*/
+#about-us {
+    background-color: crimson;
+    letter-spacing: 2px;
+}
+.parentDiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rightt-content {
+    padding-left: 250px;
+}
+/*Contact Us*/
+#contact-us {
+    background-color:crimson; 
+    text-align: center;
+    
+}
+.contact1 {
+    background-color:green;
+    border: none;
+    width: 40%;
+    align-items: center;
+    margin: 0 auto; /* Added */
+        float: none; /* Added */
+        letter-spacing: 2px;
+        
+}
+.cdetail {
+    font-family: "Montserrat-Black";
+    font-size: 300;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+/*Copyright */
+#copyright {
+    background-color: crimson;
+}
+.rights {
+    font-family: "Montserrat-Black";
+    font-weight: 400;
+    font-size: 1rem;
+    color: snow;
+    text-align: center;
+    padding: 100px;
+    letter-spacing: 5px;
+}
+@media (max-width:980px) {
+    #title {
+        text-align: center;
+    }
+    
+    
+}
+@media (max-width:580px) {
+    
+    .parentDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width: 480px)  {
+    
+
+.navbar-toggler {
+    float: left;
+  
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+.parentDiv1 {
+    flex-direction: column;
+    align-items: center;
+}
+#rightt-content {
+    padding-left: 100px;
+}
+.parentDiv > #left-content {
+    padding-left: 50px;
+
+    
+}
+.parentDiv > #right-content {
+    margin-left: 64px;
+}
+.parentDiv1 > #left-content {
+    margin-left: 64px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.big-heading {
+    font-size: 30px;
+}
+.img1 {
+    height: 200px;
+    width: 200px;
+}
+.menu1 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menuc {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.detailc {
+    font-size: 8px;
+}
+.categories1 {
+    font-size: 30px;
+}
+.pasta, .salad {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    min-height: 100%;
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+.product1 {
+    font-size: 30px;
+}
+.rimg {
+    width: 200px;
+    height: 200px;
+}
+.contact1 {
+    width: 80%;
+}
+.c1 {
+    font-size: 12px;
+}
+.cdetail {
+    font-size: 12px;
+}
+.rights {
+    font-size: 12px;
+}
+
+}
+
+
+@media (max-width:1240px) {
+    .image-pdiv {
+        flex-direction: column;
+    }
+}
