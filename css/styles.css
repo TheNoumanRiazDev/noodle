@@ -246,16 +246,14 @@ body {
     }
     
 }
+@media (max-width:480px) and (min-width:410px) {
+    .navbar-toggler {
+        display: inline;
+        float: right;
+    }
+}
 @media only screen and (max-width: 480px)  {
     
-
-.navbar-toggler {
-    float: left;
-  
-    text-align: center;
-    width: 100%;
-    border: none;
-}
 .parentDiv1 {
     flex-direction: column;
     align-items: center;
